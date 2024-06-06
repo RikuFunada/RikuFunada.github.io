@@ -1,0 +1,593 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Riku Funada</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#Profile">Profile</a></li>
+							<li><a href="#Interest">Research Interests</a></li>
+							<li><a href="#Publication">Publications & Awards</a></li>
+							<li><a href="#Bio">Bio</a></li>
+							<li><a href="#Contact">Contact</a></li>
+							<!--<li><a href="index_ja.html">Japanese</a></li>-->
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Profile -->
+					<section id="Profile" class="wrapper style1 halfscreen fade-up">
+						<div class="inner">
+							<h1>Riku Funada</h1>
+							<p>
+								<img src="images/profile.jpg" alt="" width="15%" boarder="1" style="float:right"/>
+								<b>Assistant Professor</b> with the 
+								<a href="http://www.sl.sc.e.titech.ac.jp/SCHP/index.html" target="_blank">Sampei Laboratory</a><br />
+								<a href="https://educ.titech.ac.jp/sc/eng/" target="_blank">Department of Systems and Control</a>, <br />
+								<a href="https://www.titech.ac.jp/english/" target="_blank">Tokyo Institute of Technology</a>.
+							</p>																						
+							<ul class="actions">
+								<li><a href="#Bio" class="button scrolly">Bio</a></li>
+								<li><a href="#Contact" class="button scrolly">Contact</a></li>
+							</ul>
+							<!--
+							<h3>Latest News:</h3>
+								<ul>
+									<li>2019/01/23: Our paper is accepted in International Conference on Robotics and Automation 2020.</li>
+									<li>2019/01/23: Seiichi Tejima Doctoral Dissetation Award.</li>
+								</ul>
+							-->
+						</div>
+					</section>
+
+				<!-- Interest -->
+					<section id="Interest" class="wrapper style2 spotlights fade-up">
+						<section>
+							<a href="#" class="image"><img src="images/globe_collab.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Coordination of Robots over Long Distance</h2>
+									<p>How to achieve coordinated control of robots in distant areas (e.g. different continents)?<br />
+										Approach: Passivity-based Control and Control Barrier Function<br />
+										<i>This is a collaborative work between <a href="https://www.youtube.com/watch?v=V10LkFVFppw" target="_blank">the Robotarium</a> in Georgia Tech and 
+										the preliminary version of <a href="https://www.youtube.com/watch?v=JSGmIbpfr-g&feature=emb_logo" target="_blank">the Robot Zoo</a> in Tokyo Tech.</i>
+									</p>
+									<ul class="actions">
+										<li><a href="https://www.youtube.com/watch?v=Y1w6gAnL41I" class="button" target="_blank">Video1</a></li>
+										<li><a href="https://www.youtube.com/watch?v=W-JkU42yATM&feature=emb_logo" class="button" target="_blank">Video2</a></li>
+									</ul>
+								</div>
+							</div>
+							</section>
+						<section>
+							<a href="#" class="image"><img src="images/Vis_quad2.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Visual Coverage with Quadcopters</h2>
+									<p>How to cooperatively monitor a wide important area by quadcopters equipped with cameras?<br />
+										Approach: Coverage Control and Control Barrier Function
+									</p>
+									<ul class="actions">
+										<li><a href="https://www.youtube.com/watch?v=NQmyLJbywmw" class="button" target="_blank">Video1</a></li>
+										<li><a href="https://www.youtube.com/watch?v=sT3u5bm8FLU" class="button" target="_blank">Video2</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/Surveillance.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Visual Surveillance with PTZ Camera</h2>
+									<p>How to cooperatively monitor dynamic targets, such as pedestrians, by cameras with controllable orientation?<br />
+										Approach: Optimization on Manifolds and Density Estimation</p>
+									<ul class="actions">
+										<li><a href="https://youtu.be/KgaaB9UaLTQ" class="button" target="_blank">Video</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/Vis_loc.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>3-D Visual Human Localization</h2>
+									<p>How to localize a pedestrian with cameras under the existence of obstacles which may cause occlusions?<br />
+									Approach: Passivity based Distributed Optimization and Loop Shaping</p>
+									<ul class="actions">
+										<li><a href="https://youtu.be/9nbXhtabNUI" class="button" target="_blank">Video</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Publication -->
+					<section id="Publication" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Publications</h2>
+							<p><b>Journal Paper</b>
+								<!-- ol の余白設定はmain.cssの2597行らへんに書いてある　-->
+								<ol class="publication" reversed>
+									<li>
+										<span class="uReference">R. Funada</span>, K. Nishimoto, T. Ibuki and M. Sampei<br />
+										"Collision Avoidance for Ellipsoidal Rigid Bodies with Control Barrier Functions Designed from Rotating Supporting Hyperplanes"<br />
+										<i>IEEE Transactions on Control Systems Technology</i>, conditionally accepted, 2024.<br />
+										(<a href="https://arxiv.org/abs/2308.12073" target="_blank">The arXiv version is available here</a>)
+									</li>
+									<li>
+										<span class="uReference">R. Funada</span>, M. Soliman, T. Ibuki and M. Sampei<br />
+										"Hoverable Structure Transformation for Multirotor UAVs with Laterally Actuated Frame Links"<br />
+										<i>Advanced Robotics</i>, vol. 38, no. 9-10, pp. 684-697, 2024.<br />
+										(Open Access from <a href="https://doi.org/10.1080/01691864.2024.2324310" target="_blank">DOI: 10.1080/01691864.2024.2324310</a>)
+									</li>
+									<li>
+										<span class="uReference">R. Funada</span>, M. Santos, R. Maniwa, J. Yamauchi, M. Fujita, M. Sampei and M. Egerstedt<br />
+										"Distributed Coverage Hole Prevention for Visual Environmental Monitoring with Quadcopters via Nonsmooth Control Barrier Functions"<br />
+										<i>IEEE Transactions on Robotics</i>, vol. 40, pp. 1546-1565, 2024.<br />
+										(Open Access from <a href="https://ieeexplore.ieee.org/document/10374239" target="_blank">DOI: 10.1109/TRO.2023.3347132</a>)
+										<!--(<a href="https://arxiv.org/abs/2211.02872" target="_blank">The accepted version is available on the arXiv.</a>)-->
+									</li>
+									<li>
+									A.R. Pedram, <span class="uReference">R. Funada</span> and T. Tanaka<br />
+									"Gaussian Belief Space Path Planning for Minimum Sensing Navigation"<br />
+									<i>IEEE Transactions on Robotics</i>, Vol. 39, No. 3, pp. 2040-2059, 2023.<br />
+									(<a href="https://doi.org/10.1109/TRO.2022.3228128" target="_blank">DOI: 10.1109/TRO.2022.3228128</a>)
+									</li>
+									<li>
+										T. Ito, <span class="uReference">R. Funada</span>, S. Mochida, T. Kawagoe, T. Ibuki and M. Sampei<br />
+										"Design and Experimental Verification of a Hoverable Quadrotor Composed of Only Clockwise Rotors"<br />
+										<i>Advanced Robotics</i>, Vol. 37, No. 10, pp. 667-678, 2023. <br />
+										(Open Access from <a href="https://doi.org/10.1080/01691864.2023.2185813" target="_blank">DOI: 10.1080/01691864.2023.2185813</a>)
+									</li>
+									<li>
+										T. Ibuki, T. Hirano, <span class="uReference">R. Funada</span> and M. Sampei<br />
+										"Optimization-based Distributed Safety Control with Applications to Collision Avoidance for Mobile Robotic Networks"<br />
+										<i>Advanced Robotics</i>, Vol. 37, No. 1-2, pp. 87-98, 2023. <br />
+										(Open Access from <a href="https://doi.org/10.1080/01691864.2022.2119886" target="_blank">DOI: 10.1080/01691864.2022.2119886</a>)
+									</li>
+									<li>
+									R. Watanabe, T. Ibuki, Y. Sakayanagi, <span class="uReference">R. Funada</span> and M. Sampei<br />
+									"Risk-aware Energy Management for Drive Mode Control in Plug-in Hybrid Electric Vehicles"<br />
+									<i>IEEE Access</i>, Vol. 10, pp. 103619-103631, 2022. <br />
+									(Open Access from <a href="https://doi.org/10.1109/ACCESS.2022.3206091" target="_blank">DOI: 10.1109/ACCESS.2022.3206091</a>)
+									</li>
+									<li>
+									J. Yamauchi, T. Gencho, <span class="uReference">R. Funada</span>, T. Hatanaka, M. Fujita<br />
+									"Persistent Visual Coverage Control Ensuring Field of Views' Overlap with Information Reliability and Energy Management"<br />
+									<i>IEEJ Transactions on Electronics, Information and Systems</i>, 
+									Vol. 141, No. 3, pp. 417-425, 2021. <br />
+									(<a href="https://www.jstage.jst.go.jp/article/ieejeiss/141/3/141_417/_article/-char/ja/" target="_blank">DOI: 10.1109/MCS.2020.2990515</a>)
+									</li>
+									<li>
+									<span class="uReference">R. Funada</span>, X. Cai, G. Notomista, M.W.S. Atman, J. Yamauchi, M. Fujita and M. Egerstedt<br />
+									"Coordination of Robot Teams Over Long Distances From Georgia Tech to Tokyo Tech and Back; An 11,000km Multi-Robot Experiment"<br />
+									<i>IEEE Control Systems Magazine</i>, 
+									Vol. 40, No. 4, pp. 53-79, 2020. <br />
+									(<a href="https://ieeexplore.ieee.org/document/9143250" target="_blank">DOI: 10.1109/MCS.2020.2990515</a>)
+									</li>
+									<li>
+									T. Hatanaka, <span class="uReference">R. Funada</span> and M. Fujita<br />
+									"Visual Surveillance of Human Activities via Gradient-based Coverage Control on Matrix Manifolds"<br />
+									<i>IEEE Transactions on Control Systems Technology</i>, 
+									Vol. 28, No. 6, pp. 2220-2234, 2020. <br />
+									(<a href="https://doi.org/10.1109/TCST.2019.2935063" target="_blank">DOI: 10.1109/TCST.2019.2935063</a>)
+									</li> 
+									<li>
+									A.W. Farras, T. Hatanaka, T.W. Nguyen, <span class="uReference">R. Funada</span>, J. Yamauchi and M. Fujita<br />
+									"Distributed Dynamic Reference Governor for Constrained Semi-Autonomous Robotic Swarms with Communication Delays and Experimental Verification"<br />
+									<i>SICE Journal of Control, Measurement, and System Integration</i>, 
+									Vol. 12, No. 6, pp. 237-245, 2019. <br />
+									(<a href="https://doi.org/10.9746/jcmsi.12.237" target="_blank">DOI: 10.9746/jcmsi.12.237</a>)
+									</li> 
+									<li>
+									<span class="uReference">R. Funada</span>, S. Yamashita, T. Hatanaka and M. Fujita<br />
+									"Passivity-Based Distributed 3-D Visual Human Localization Algorithm"<br />
+									<i>Transactions of the Society of Instrument and Control Engineers</i>, 
+									Vol. 54, No. 6, pp. 547-556, 2018. (in Japanese) <br />
+									(<a href="https://www.jstage.jst.go.jp/article/sicetr/54/6/54_547/_article/-char/en" target="_blank">DOI: 10.1115/1.2017-Jun-6</a>)
+									</li> 
+									<li>
+									T. Hatanaka, Y. Wasa, <span class="uReference">R. Funada</span>, A.G. Charalambides and M. Fujita<br />
+									"A Payoff-based Learning Approach to Cooperative Environmental Monitoring for PTZ Visual Sensor Networks"<br />
+									<i>IEEE Transactions on Automatic Control</i>, 
+									Vol. 61, No. 3, pp. 709-724, 2016.<br />
+									(<a href="https://ieeexplore.ieee.org/document/7138601?arnumber=7138601" target="_blank">DOI:10.1109/TAC.2015.2450611</a>, 
+									Downloadable at <a href="https://arxiv.org/abs/1302.2017" target="_blank">arXiv:1302.2017</a>)
+									</li>
+									<li>
+									<span class="uReference">R. Funada</span>, T. Hatanaka and M. Fujita<br />
+									"Cooperative Visual Environmental Monitoring: A Gradient Descent Approach on SO(3)"<br />
+									<i>Transactions of the Society of Instrument and Control Engineers</i>, 
+									Vol. 51, No. 3, pp. 139-147, Mar 21, 2015. (in Japanese) <br />
+									(<a href="https://www.jstage.jst.go.jp/article/sicetr/51/3/51_139/_article/-char/en" target="_blank">DOI:10.9746/sicetr.51.139</a>)
+									</li> 
+								</ol>
+							</p>
+							<p><b>International Conference Paper</b>
+								<ol class="publication" reversed>
+									<li>
+										K. Nishimoto, Y. Onishi, <span class="uReference">R. Funada</span> and M. Sampei<br />						
+										"Controller Design for Linear Systems via Controllability Gramian Shaping"<br />
+										<i>Proc. the 8th IEEE Conf. Control Technology and Applications</i>, to be presented, 2024.<br />
+										<!--(<a href="https://doi.org/10.1016/j.ifacol.2023.10.1417" target="_blank">Doi: 10.1016/j.ifacol.2023.10.1417</a>)-->
+									</li>
+									<li>
+										Y. Kataoka, <span class="uReference">R. Funada</span>, K. Uemura, J. Peterson, K. Saku, K. Sunagawa, M. Sampei, and J. Alexander<br />	
+										"Patient-specific Optimal Hemodynamic Control with Minimal Myocardial Oxygen Consumption"<br />
+										<i>Proc. the 8th IFAC Conf. Nonlinear Model Predictive Control</i>, to be presented, 2024.<br />
+										<!--(<a href="https://doi.org/10.1016/j.ifacol.2023.10.1417" target="_blank">Doi: 10.1016/j.ifacol.2023.10.1417</a>)-->
+									</li>
+									<li>
+										T Ito, <span class="uReference">R. Funada</span>, and M Sampei
+										"Design and Control of a VTOL Aerial Vehicle Tilting its Rotors only with Rotor Thrusts and a Passive Joint"<br />
+										<i>Proc. the 8th IFAC Conf. Nonlinear Model Predictive Control</i>, to be presented, 2024.<br />
+										<!--(<a href="https://doi.org/10.1016/j.ifacol.2023.10.1417" target="_blank">Doi: 10.1016/j.ifacol.2023.10.1417</a>)-->
+									</li>
+									<li>
+										<span class="uReference">R. Funada</span>, K. Miyama, T. Toyooka, T. Tanaka and M. Sampei<br />
+										"Minimum Sensing Strategy for a Path-Following Problem via Discrete-Time Control Barrier Functions"<br />
+										<i>Proc. the 22nd IFAC World Congress</i>, pp. 3276-3281, 2023.<br />
+										(<a href="https://doi.org/10.1016/j.ifacol.2023.10.1417" target="_blank">Doi: 10.1016/j.ifacol.2023.10.1417</a>)
+									</li>
+									<li>
+										S. Mochida, R. Terunuma, T. Ito, <span class="uReference">R. Funada</span>, T. Ibuki and M. Sampei<br />
+										"Optimization of Rotor Arrangement for a Multirotor UAV with Robustness against a Single Rotor-Failure"<br />
+										<i>Proc. the 22nd IFAC World Congress</i>, pp. 10001-10006, 2023.<br />
+										(<a href="https://doi.org/10.1016/j.ifacol.2023.10.214" target="_blank">Doi: 10.1016/j.ifacol.2023.10.214</a>)
+									</li>
+									<li>
+										T. Fujinami, J. Yamauchi, <span class="uReference">R. Funada</span>, and M. Fujita<br />
+										"A Control Barrier Function Approach for Observer-Based Visually Safe Pursuit Control with Spherical Obstacles"<br />
+										<i>Proc. the 22nd IFAC World Congress</i>, pp. 11609-11614, 2023.<br />
+										(<a href="https://doi.org/10.1109/IROS47612.2022.9981431" target="_blank">Doi: 10.1109/IROS47612.2022.9981431</a>)
+									</li>
+									<li>
+									Shunsuke Mochida, Ryotaro Onuki, Takahiro Kawagoe, Takumi Ito, Tatsuya Ibuki, <span class="uReference">Riku Funada</span> and Mitsuji Sampei<br />
+									"Hoverability Analysis and Development of a Quadrotor Only with Clockwise Rotors"<br />
+									<i>Proc. of 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems</i>, pp. 7558-7564, 2022. <br />
+									(<a href="https://doi.org/10.1109/IROS47612.2022.9981431" target="_blank">Doi: 10.1109/IROS47612.2022.9981431</a>)
+									</li>
+									<li>
+									K. Nishimoto, <span class="uReference">R. Funada</span>, T. Ibuki and M. Sampei<br />
+									"Collision Avoidance for Elliptical Agents with Control Barrier Function Utilizing Supporting Lines"<br />
+									<i>Proc. of 2022 American Control Conference</i>, pp. 5147-5153, 2022. <br />
+									(<a href="https://doi.org/10.23919/ACC53348.2022.9867730" target="_blank">DOI: 10.23919/ACC53348.2022.9867730</a>)
+									</li>
+									<li>
+									R. Watanabe, K. Nishimoto, T. Ibuki, Y. Sakayanagi, <span class="uReference">R. Funada</span> and M. Sampei<br />
+									"Drive Mode Control with a Catalyst Temperature Model for Fuel and Emissions Reduction in Plug-In Hybrid Electric Vehicles"<br />
+									<i>Proc. of 2022 American Control Conference</i>, pp. 3064-3070, 2022. <br />
+									(<a href="https://doi.org/10.23919/ACC53348.2022.9867767" target="_blank">DOI: 10.23919/ACC53348.2022.9867767</a>)
+									</li>
+									<li>
+									A.R. Pedram, <span class="uReference">R. Funada</span> and T. Tanaka<br />
+									"Dynamic Allocation of Visual Attention for Vision-based Autonomous Navigation under Data Rate Constraints"<br />
+									<i>Proc. of 2021 IEEE Conference on Decision and Control</i>, pp. 6243-6250, 2021. <br />
+									(<a href="https://doi.org/10.1109/CDC45484.2021.9683570" target="_blank">DOI: 10.1109/CDC45484.2021.9683570</a>)
+									</li>
+									<li>
+									A.R. Pedram, J. Stefarr, <span class="uReference">R. Funada</span> and T. Tanaka<br />
+									"Rationally inattentive path-planning via RRT*"<br />
+									<i>Proc. of 2021 American Control Conference</i>, pp. 3440-3446, 2021.
+									(<a href="https://doi.org/10.23919/ACC50511.2021.9483305" target="_blank">DOI:10.23919/ACC50511.2021.9483305</a>)
+									</li>
+									<li>
+									<span class="uReference">R. Funada</span>, M. Santos, T. Gencho, J. Yamauchi, M. Fujita and M. Egerstedt<br />
+									"Visual Coverage Maintenance for Quadcopters Using Nonsmooth Barrier Functions"<br />
+									<i>Proc. of 2020 International Conference on Robotics and Automation</i>, pp. 3255-3261, 2020.
+									(<a href="https://doi.org/10.1109/ICRA40945.2020.9196650" target="_blank">DOI:10.1109/ICRA40945.2020.9196650</a>)
+									</li>
+									<li>
+									<span class="uReference">R. Funada</span>, M. Santos, J. Yamauchi, T. Hatanaka, M. Fujita and M. Egerstedt<br />
+									"Visual Coverage Control for Teams of Quadcopters via Control Barrier Functions"<br />
+									<i>Proc. of 2019 International Conference on Robotics and Automation</i>, pp. 3010-3016, 2019.
+									(<a href="https://doi.org/10.1109/ICRA.2019.8793477" target="_blank">DOI:10.1109/ICRA.2019.8793477</a>)
+									</li>
+									<li>
+									M.W.S. Atman, K. Noda, <span class="uReference">R. Funada</span>, J. Yamauchi, T. Hatanaka and M. Fujita<br />
+									"On Passivity-Shortage of Human Operators for A Class of Semi-autonomous Robotic Swarms"<br />
+									<i>Proc. of 2nd IFAC Conference on Cyber-Physical & Human Systems</i>, pp. 21-27, 2018.
+									(<a href="https://doi.org/10.1016/j.ifacol.2019.01.008" target="_blank">DOI:10.1016/j.ifacol.2019.01.008</a>)
+									</li>
+									<li>
+									T. Hatanaka, <span class="uReference">R. Funada</span>, G. Gezer and M. Fujita<br />
+									"Distributed Visual 3-D Localization of A Human Using Pedestrian Detection Algorithm: 
+									A Passivity-Based Approach"<br />
+									<i>Proc. of 6th IFAC Workshop on Distributed Estimation and Control in Networked Systems (NecSys)</i>,<br />
+									IFAC-PapersOnLine, Vol. 49, No. 22, pp. 210-215, 2016.
+									(<a href="https://doi.org/10.1016/j.ifacol.2016.10.398" target="_blank">DOI:10.1016/j.ifacol.2016.10.398</a>)
+									</li>
+									<li>
+									M. Forstenhaeusler, <span class="uReference">R. Funada</span>, T. Hatanaka and M. Fujita<br />
+									"Experimental Study of Gradient-Based Visual Coverage Control on SO(3) 
+									Toward Moving Object/Human Monitoring"<br />
+									<i>Proc. of 2015 American Control Conference</i>, pp. 2125-2130, 2015.
+									(<a href="http://dx.doi.org/10.1109/ACC.2015.7171047" target="_blank">DOI:10.1109/ACC.2015.7171047</a>)
+									</li>
+									<li>
+									T. Hatanaka, <span class="uReference">R. Funada</span> and M. Fujita<br />
+									"3-D Visual Coverage Based on Gradient Descent Algorithm on Matrix Manifolds and 
+									Its Application to Moving Objects Monitoring"<br />
+									<i>Proc. of 2014 American Control Conference</i>, pp. 2125-2130, 2015.
+									(<a href="http://doi.org/10.1109/ACC.2014.6858663" target="_blank">DOI:10.1109/ACC.2014.6858663</a>)
+									</li>
+								</ol>
+							</p> 
+							
+
+							<p><b>Invited Talk</b>
+								<ol class="publication" reversed>
+									<li>
+										<span class="uReference">舩田陸</span>, "安全性を保証した移動ロボットの制御," 東工大×Denso ITLab共同研究講座及び合同研究会, 2023年3月29日.
+									</li>
+									<li>
+											<span class="uReference">R. Funada</span>, "Visual Environmental Monitoring for Teams of Quadcopters"<br />
+											Conference on Control Technology and Applications Workshop, 
+											"<a href="https://sites.google.com/view/ccta-2021-vision-and-control/home" target="_blank">The Confluence of Vision and Control</a>," Aug. 8, 2021.
+									</li>
+										
+									<li>
+										<span class="uReference">舩田陸</span>, "アメリカでの研究滞在とその準備," 海外で活躍する若者たち：コロナを乗り切る留学・就職・長期滞在のノウハウ, SICE九州支部フォーラム, 2020年10月18日.
+									</li>
+								</ol>
+
+							</p> 
+
+							<p><b>Others</b>
+								<ol class="publication" reversed>
+									<li>
+										Co-Editor of the special issue: <br />
+										L. Beaver, G. Notomista, <span class="uReference">R. Funada</span> and J. Yamauchi
+										"<a href="https://www.sciencedirect.com/journal/ifac-journal-of-systems-and-control/about/call-for-papers#ecologically-inspired-design-and-control-of-robotic-swarms" target="_blank">
+											Ecologically-Inspired Design and Control of Robotic Swarms</a>," Co-Editor, 
+											IFAC Journal of Systems and Control, 2023.
+									</li>
+									<li>
+										<a href="https://www.ifac2023.org/about/oc/" target="_blank">National Organizing Committee of IFAC2023</a>,  Online Team of IFAC 2023, 
+										The 22nd World Congress of the International Federation of Automatic Control, July, 2023.
+									</li>
+									<li>
+										Workshop Co-Organizer: <br />
+										G. Notomista, <span class="uReference">R. Funada</span>, J. Yamauchi and P.R. Giordano, 
+										"<a href="https://sites.google.com/view/hmrs-iros2022/" target="_blank">Human-multi-robot Systems: Challenges for Real-world Applications</a>," Workshop Co-Organizer, 
+										The 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems, Oct. 27, 2022.
+									</li>
+								</ol>
+
+							</p> 
+
+							<h2>Projects</h2>
+							<p>
+								<ol class="publication" reversed>
+									<li>
+									JSPS KAKENHI Grant Number 22K14275 (PI: <span class="uReference">Riku Funada</span>): ロボティックセンサネットワークによる状況適応的環境モニタリング手法の構築<br />
+									from 2022-04-01 to 2025-03-31.
+									</li>
+									<li>
+									JSPS KAKENHI Grant Number 21K20425 (PI: <span class="uReference">Riku Funada</span>): 自律移動ロボットに対する情報削減的計測戦略を有した経路計画・追従システムの構築<br />
+									from 2021-08-30 to 2023-03-31.
+									</li>
+									<li>
+									東京工業大学 助教インセンティブ研究費 (PI: <span class="uReference">Riku Funada</span>): 合理的不注意性を有した実時間計測戦略に基づく経路追従手法の提案<br />
+									from 2021-09-01 to 2022-03-31.
+									</li>
+									<li>
+									JSPS KAKENHI Grant Number 21H01348 (PI: Mitsuji Sampei): マルチロータ型UAVの運動性能解析に基づく構造設計と制御<br />
+									from 2021-04-01 to 2025-03-31.
+									</li>
+								</ol>
+							</p>	
+
+							<h2>Scholarships & Awards</h2>
+							<p>
+								<ol class="publication" reversed>
+									<li>
+									Control Division Young Author’s Award: Fundamental Area<br />
+									(March, 2023)
+									</li>
+									<li>
+									Outstanding Presentation Award in 第63回 自動制御連合講演会<br />
+									(November, 2021)
+									</li>
+									<li>
+									Seiichi Tejima Doctoral Dissertation Award<br />
+									(February, 2020)
+									</li>
+									<li>
+									Travel expenses support from Mitutoyo Association for Science and Technology<br />
+									(for ICRA 2019 held in May 2019)
+									</li>
+									<li>
+									Research Fellowships of Japan Society for the Promotion of Science for Young Scientists (JSPS DC1)<br />
+									(April 2016 - March 2019)
+									</li>
+									<li>
+									Travel expenses support from International Cooperation Office in Tokyo Institute of Technology<br />
+									(for Research Activity in Professor 
+									<a href="https://magnus.ece.gatech.edu/" target="_blank">Magnus Egerstedt</a>'s 
+									Group in Georgia Institute of Technology, June 2018 - November 2018)
+									</li>
+									<li>
+									Scholarship from Japan Student Services Organization (Exemption from refund)<br />
+									(April 2014 - March 2016)
+									</li>
+									<li>
+									Miura Award from The Japan Society of Mechanical Engineers<br />
+									(March 2016)
+									</li>
+									<li>
+									130 Anniversary Encouragement Scholarship for Proceeding to Doctoral Course 
+									from Tokyo Institute of Technology<br />
+									(October 2015)
+									</li>
+									<li>
+									Student Poster Session Award in MSCS 2015 held by SICE<br />
+									(March 2015)
+									</li>
+								</ol>
+							</p>
+							<h2>Short term visit</h2>
+								<ol class="publication" reversed>
+								<!--<li>
+								Dr <a href="https://magnus.ece.gatech.edu/" target="_blank">Takashi Tanaka</a>'s 
+								Group in The University of Texas at Austin, From December 2019.<br />
+								<span class="Blog"><a href="https://rikutexasaustin.blogspot.com/" target="_blank">Blog: UT Austin 滞在記 (in Japanese)</a></span>.	
+								</li>	-->
+								<li>
+								Professor <a href="https://magnus.ece.gatech.edu/" target="_blank">Magnus Egerstedt</a>'s 
+								Group in Georgia Institute of Technology, June 2018 - November 2018.<br />
+								Research Result is published in ICRA 2019. <br />
+								<span class="Blog"><a href="https://rikugeorgia.blogspot.com/" target="_blank">Blog: Georgia Tech 滞在記 (in Japanese)</a></span>.<br \>
+								The sequel of the above blog is <span class="Blog"><a href="https://rikutexasaustin.blogspot.com/" target="_blank">UT Austin 滞在記 (in Japanese)</a></span>.
+								</li>					
+								</ol>
+
+						</div>
+					</section>
+
+				<!-- Bio -->
+					<section id="Bio" class="wrapper styleBio fade-up">
+						<div class="inner">
+							<h2>Bio</h2>
+							<h3>Career</h3>
+							<ul>
+							<li>
+							Assistant Professor with the
+							<a href="https://educ.titech.ac.jp/sc/eng/" target="_blank">Department of Systems and Control</a>, <br />
+							<a href="https://www.titech.ac.jp/english/" target="_blank">The Tokyo Institute of Technology</a>, 
+							supervised by Prof. <a href="http://www.sl.sc.e.titech.ac.jp/~sampei/index-e.html" target="_blank">Mitsuji Sampei</a>
+							from Dec. 2020.
+							</li>
+							<li>
+							Postdoctoral Researcher with the
+							<a href="https://www.ae.utexas.edu/" target="_blank">Department of Aerospace Engineering and Engineering Mechanics</a>, <br />
+							<a href="https://www.utexas.edu/" target="_blank">The University of Texas at Austin</a>, 
+							supervised by Prof. <a href="https://sites.utexas.edu/tanaka/" target="_blank">Takashi Tanaka</a>
+							from Dec. 2019 to Nov. 2020.
+							</li>
+							<li>
+							Postdoctoral Researcher with the
+							<a href="https://www.waseda.jp/fsci/wise/" target="_blank">Waseda Research Institute for Science and Engineering</a>, <br />
+							<a href="https://www.waseda.jp/top/en/" target="_blank">The Waseda University</a>, 
+							supervised by Prof. <a href="https://nrid.nii.ac.jp/ja/nrid/1000080063808/" target="_blank">Kenko Uchida</a>
+							from Apr. 2019 to Nov. 2019.
+							</li>
+							</ul>
+							<br />
+							<h3>Education</h3>
+							<ul>
+							<li>
+							Ph.D. in Engineering from School of Department of Systems and Control Engineering, Tokyo Institute of Technology, 2019. <br />
+							Supervised by Prof. <a href="https://www.scl.ipc.i.u-tokyo.ac.jp/member2/fujita/fujitae.html" target="_blank">Masayuki Fujita</a> and 
+							Prof. <a href="http://is.eei.eng.osaka-u.ac.jp/hatanaka/index.php" target="_blank">Hatanaka Takeshi</a>.
+							</li>
+							<li>
+							M.Eng. from Department of Mechanical and Control Engineering, Tokyo Institute of Technology, 2016.<br />
+							Supervised by Prof. <a href="https://www.scl.ipc.i.u-tokyo.ac.jp/member2/fujita/fujitae.html" target="_blank">Masayuki Fujita</a> and 
+							Prof. <a href="http://is.eei.eng.osaka-u.ac.jp/hatanaka/index.php" target="_blank">Hatanaka Takeshi</a>.
+							</li>
+							<li>
+							B.Eng. from Department of Control and Systems Engineering, Tokyo Institute of Technology, 2014.<br />
+							Supervised by Prof. <a href="https://www.scl.ipc.i.u-tokyo.ac.jp/member2/fujita/fujitae.html" target="_blank">Masayuki Fujita</a>.
+							</li>
+							</ul>
+							<br />
+							<h3>Teaching Assistant</h3>
+							<li>
+							<a href="http://www.fl.ctrl.titech.ac.jp/course/ROC/index.html" target="_blank">Robust Control</a>
+							(2017, 2016, 2015, 2014)
+							</li>
+							<li>
+							<a href="http://www.fl.ctrl.titech.ac.jp/course/FC/index.html" target="_blank">Feedback Control</a>
+							(2016, 2015, 2014)
+							</li>
+							<li>
+							<a href="https://www.citl.titech.ac.jp/matlab_officehour/" target="_blank">MATLAB TA</a>
+							(2015, Elected through screening process and interview)
+							</li>
+							<li>
+							<a href="http://www.fl.ctrl.titech.ac.jp/course/SC/index.html" target="_blank">Analysis and Design of Linear Control Systems</a>
+							(2015)
+							</li>
+							<li>
+							<a href="http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&JWC=201707526&lang=EN" target="_blank">Training in Laboratories on Systems and Control Engineering</a>
+							(2017, 2016, 2014)
+							</li>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="Contact" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Contact</h2>
+								<ul class="contact">
+									<li>
+										<h3>Address</h3>
+										<span>S5-310A, Ookayama 2-12-1, Meguro-ku, Tokyo, 152-8550, JP. (Mailbox: S5-24)</span>
+									</li>
+									<li>
+										<h3>Email</h3>
+										funada _at_ sc.e.titech.ac.jp
+									</li>
+									<!--<li>
+										<h3>Phone</h3>
+										<span>+81-3-5286-3140</span>
+									</li>-->
+									<!--
+									<li>
+										<h3>Social</h3>
+										<ul class="icons">
+											<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
+											<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+										</ul>
+									</li>
+									-->
+								</ul>							
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Riku Funada. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a> (Modified by Riku Funada)</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
